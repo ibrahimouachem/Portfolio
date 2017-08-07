@@ -26,6 +26,7 @@
 						<li><a href="#education">Education</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#recommandations">Recommandations</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -36,8 +37,8 @@
 			</div>
 
 			<div class="heading">
-				<h1>Hello, I'm jhony</h1>
-				<h3>Web Developer</h3>
+				<h1>Hello, I'm johny</h1>
+				<h3 style="color: #fff;">Web Developer</h3>
 				<a href="#" class="button1">DOWNLOAD MY RESUME</a>
 			</div>
 		</section>
@@ -251,11 +252,65 @@
 						</div>
 					</div>
 					<a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
                     </a>
                     <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
                     </a>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="container">
+				<div class="white-divider"></div>
+				<div class="heading">
+					<h2>Contact</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-10 col-lg-offset-1">
+						<form id="contact-form" method="post" action="" role="form">
+							<div class="row">
+								<div class="col-md-6">
+									<label for="firstname">Prenom *</label>
+									<input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre Prenom" value="">
+									<p class="comments"></p>
+								</div>
+
+								<div class="col-md-6">
+									<label for="name">Nom *</label>
+									<input type="text" id="name" name="name" class="form-control" placeholder="Votre Nom" value="">
+									<p class="comments"></p>
+								</div>
+
+								<div class="col-md-6">
+									<label for="email">Email *</label>
+									<input type="text" id="email" name="email" class="form-control" placeholder="Votre e-mail" value="">
+									<p class="comments"></p>
+								</div>
+
+								<div class="col-md-6">
+									<label for="phone">Telephone</label>
+									<input type="tel" id="phone" name="phone" class="form-control" placeholder="Votre Telephone" value="">
+								</div>
+
+								<div class="col-md-12">
+									<label for="message">Message *</label>
+									<textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+									<p class="comments"></p>
+								</div>
+
+								<div class="col-md-12">
+									<p class="blue"><strong>* Ces informations sont requises</strong></p>
+								</div>
+
+								<div class="col-md-12">
+									<input type="submit" class="button1" value="Envoyer">
+								</div>
+
+							</div>
+
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -267,9 +322,10 @@
 			
 		</footer>
 
-		<script src="js/main.js"></script>
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.js"></script>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 		
 	</body>
 </html>
